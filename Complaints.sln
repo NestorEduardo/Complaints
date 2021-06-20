@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complaints.Core", "Complaints.Core\Complaints.Core.csproj", "{9C6C02A6-053B-44D4-895C-1F2CABFEEB10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complaints.Core", "Complaints.Core\Complaints.Core.csproj", "{9C6C02A6-053B-44D4-895C-1F2CABFEEB10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complaints.Services", "Complaints.Services\Complaints.Services.csproj", "{D7947C71-A4D6-42E4-9028-56FE4153877F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complaints.Services", "Complaints.Services\Complaints.Services.csproj", "{D7947C71-A4D6-42E4-9028-56FE4153877F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complaints.Repository", "Complaints.Repository\Complaints.Repository.csproj", "{FEC68FCA-0ACD-4157-AF20-029E80413111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complaints.Repository", "Complaints.Repository\Complaints.Repository.csproj", "{FEC68FCA-0ACD-4157-AF20-029E80413111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complaints.Web", "Complaints.Web\Complaints.Web.csproj", "{68758A94-8F6E-46B2-9898-283082DC0A9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complaints.Web", "Complaints.Web\Complaints.Web.csproj", "{68758A94-8F6E-46B2-9898-283082DC0A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complaints.Data", "Complaints.Data\Complaints.Data.csproj", "{5A989581-FD10-4061-8E7A-DDA40E6EBDE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{68758A94-8F6E-46B2-9898-283082DC0A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68758A94-8F6E-46B2-9898-283082DC0A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68758A94-8F6E-46B2-9898-283082DC0A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A989581-FD10-4061-8E7A-DDA40E6EBDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A989581-FD10-4061-8E7A-DDA40E6EBDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A989581-FD10-4061-8E7A-DDA40E6EBDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A989581-FD10-4061-8E7A-DDA40E6EBDE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
