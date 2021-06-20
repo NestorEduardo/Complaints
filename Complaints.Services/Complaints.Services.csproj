@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Complaints.Core\Complaints.Core.csproj" />
+    <ProjectReference Include="..\Complaints.Repository\Complaints.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
